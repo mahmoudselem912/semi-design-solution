@@ -1,0 +1,28 @@
+.about-page {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.content {
+  text-align: left;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 700;
+  color: gray;
+}
+
+.heading-tertiary {
+  font-size: 1.5rem;
+  color: gray;
+  margin-top: -60px;
+  font-weight: 200;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: gray;
+}

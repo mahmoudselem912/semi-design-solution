@@ -1,0 +1,12 @@
+.btn-text{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+    height: 100%;
+}
+
+.btn-text:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
