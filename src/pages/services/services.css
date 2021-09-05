@@ -1,5 +1,6 @@
 .services-page {
   height: 100vh;
+  background: url(../../assets/dot-pattern.png);
 }
 .heading-services {
   font-size: 3rem;

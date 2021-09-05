@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import video from "../../assets/mobile-marketing.mp4";
 import video1 from "../../assets/social-media.mp4";
 import video2 from "../../assets/e-commerce.mp4";
 import video3 from "../../assets/mobile-app-icon.mp4";
-import video4 from '../../assets/hosting.mp4'
-import "react-multi-carousel/lib/styles.css";
+import video4 from "../../assets/hosting.mp4";
 import "./services.css";
 
 const Services = () => {
@@ -29,7 +29,7 @@ const Services = () => {
     },
   };
   return (
-    <div className="services-page">
+    <div className="services-page" id="degital-services">
       <h2 className="heading-services">OUR SERVICES</h2>
       <p className="text-services">LEARN ABOUT OUR SERVICES</p>
 
@@ -73,7 +73,6 @@ const Services = () => {
           </video>
           <p className="video-text">Hosting Services</p>
         </div>
-
       </Carousel>
     </div>
   );

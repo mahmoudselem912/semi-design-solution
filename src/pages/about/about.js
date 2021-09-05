@@ -5,7 +5,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="about-page" id="about">
       <div className="bg-video">
         <video className="video" autoPlay loop muted>
           <source src={video} type="video/mp4" />

@@ -8,13 +8,12 @@ const Nav = () => {
     <div className="nav-main">
       <img src={logo} alt="logo" className="nav-main__img" />
 
-      <BtnText name="HOME" />
-
-      <BtnText name="ABOUT US" />
-      <BtnText name="DIGITAL SERVICES" />
-      <BtnText name="OUR PORTFOLIO" />
-      <BtnText name="PARTTNERS" />
-      <BtnText name="BLOG" />
+      <BtnText name="HOME" href="home"/>
+      <BtnText name="ABOUT US" href="about"/>
+      <BtnText name="DIGITAL SERVICES" href="degital-services"/>
+      <BtnText name="OUR PORTFOLIO" href="portfolio"/>
+      <BtnText name="PARTTNERS" href="parttners"/>
+      <BtnText name="BLOG" href="blog"/>
     </div>
   );
 };
