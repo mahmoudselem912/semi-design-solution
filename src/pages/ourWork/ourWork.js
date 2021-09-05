@@ -7,6 +7,7 @@ import logo3 from "../../assets/photo3.jpg";
 import logo4 from "../../assets/photo4.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Btn from '../../buttons/btn';
 
 const OurWork = () => {
   const responsive = {
@@ -101,6 +102,8 @@ const OurWork = () => {
           </Card.Body>
         </Card>
       </Carousel>
+
+      <Btn text="Show More" utility="btn--gray" margin="15px"/>
     </div>
   );
 };
