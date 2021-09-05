@@ -1,0 +1,22 @@
+.customers-page {
+  height: 100vh;
+  background: linear-gradient(to bottom, #fffaf5 0%, #f8ecff 100%);
+}
+
+.heading-customers {
+  font-size: 3rem;
+  color: gray;
+  letter-spacing: 0.2rem;
+}
+
+.text-customers {
+  font-size: 1.5rem;
+  color: gray;
+  letter-spacing: 0.3rem;
+  margin-top: -30px;
+}
+
+.company-logo {
+  width: 300px;
+  height: 300px;
+}
