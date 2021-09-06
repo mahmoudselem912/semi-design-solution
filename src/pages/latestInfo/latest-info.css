@@ -1,0 +1,34 @@
+.latestInfo-page {
+  height: 100vh;
+  background: url(../../assets/dot-pattern.png);
+}
+.heading-news {
+  font-size: 3rem;
+  color: gray;
+  letter-spacing: 0.2rem;
+}
+
+.text-news {
+  font-size: 1.5rem;
+  color: gray;
+  letter-spacing: 0.3rem;
+  margin-top: -30px;
+}
+
+.news-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.small-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img-news {
+  width: 300px;
+  height: 300px;
+}

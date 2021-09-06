@@ -1,0 +1,66 @@
+.footer {
+  height: 50vh;
+  position: relative;
+  background-color: black;
+}
+
+.links-container {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.info-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  display: flex;
+}
+
+.info {
+  color: white;
+  margin-right: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.info:hover {
+  border-bottom: 1px solid red;
+  color: red;
+  transform: scale(1.1);
+}
+
+.logo {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.copyRight {
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
